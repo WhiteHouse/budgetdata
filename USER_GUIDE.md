@@ -51,7 +51,7 @@ The account-level data is available in spreadsheet and file import format.
 
 ### a.  Spreadsheet format
 
-Files are provided in "XLS" and “CSV” formats.  Virtually any spreadsheet program can read at least one of these common formats.  In “CSV” format, data fields are separated by commas, text fields are contained inside double quote marks, and numerical fields do not have embedded commas.  Each record is contained on a single line.  This format is commonly used by database software.  Separate files for receipts, outlays, and budget authority are available in each of these formats and are described in detail below.
+Files are provided in “CSV” format.  Virtually any spreadsheet program can read this common format.  In “CSV” format, data fields are separated by commas, text fields are contained inside double quote marks, and numerical fields do not have embedded commas.  Each record is contained on a single line.  This format is commonly used by database software.  Separate files for receipts, outlays, and budget authority are available in each of these formats and are described in detail below.
 
 ### b.  File names, contents, and sequence
 
@@ -60,7 +60,7 @@ In all files, the records are sequenced by agency code, bureau code, account cod
 The files with the account-level data are:
   - `outlays.csv`	— Outlays and offsetting receipts, 1962-2020, in csv format.
   - `receipts.csv` — Governmental receipts, 1962-2020, in file csv format.
-  - `budauth.csv`	— Budget authority and offsetting receipts, 1976-2020, in file import format.
+  - `budauth.csv`	— Budget authority and offsetting receipts, 1976-2020, in csv format.
 
 Offsetting receipts are in the budget authority files as well as the outlay files.  These amounts are needed to calculate net budget authority and net outlays.
 
