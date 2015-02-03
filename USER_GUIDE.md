@@ -111,12 +111,15 @@ Receipt account data are categorized as follows:
 The following table describes the fields of data for the account-level files.  For data files in spreadsheet format, the fields are separate spreadsheet columns.  For files in file import format, commas, as previously described, separate the fields.
 
 <table>
-  <tr>
-    <td>Field number</td>
-    <td>Field name</td>
-    <td>Description</td>
-    <td>Valid values</td>
-  </tr>
+  <thead>
+	<tr>
+	  <th>Field number</th>
+	  <th>Field name</th>
+	  <th>Description</th>
+	  <th>Valid values</th>
+	</tr>
+  </thead>
+  <tbody>
   <tr>
     <td>1</td>
     <td>Agency code</td>
@@ -219,6 +222,7 @@ The following table describes the fields of data for the account-level files.  F
     <td>Estimated amounts, in thousands of dollars, for FY 2015 through FY 2020</td>
     <td>(same as above)</td>
   </tr>
+  </tbody>
 </table>
 
 
@@ -227,12 +231,15 @@ The following table describes the fields of data for the account-level files.  F
 The following table describes the fields of data for the account-level files.  For data files in spreadsheet format, the fields are separate spreadsheet columns.  For files in file import format, the fields are separated by commas, as described above.
 
 <table>
-  <tr>
-    <td>Field number</td>
-    <td>Field name</td>
-    <td>Description</td>
-    <td>Valid values</td>
-  </tr>
+  <thead>
+	<tr>
+	  <th>Field number</th>
+	  <th>Field name</th>
+	  <th>Description</th>
+	  <th>Valid values</th>
+	</tr>
+  </thead>
+  <tbody>
   <tr>
     <td>1</td>
     <td>Agency code</td>
@@ -323,6 +330,7 @@ The following table describes the fields of data for the account-level files.  F
     <td>Estimated amounts, in thousands of dollars, for FY 2015 through FY 2020</td>
     <td>(same as above)</td>
   </tr>
+  </tbody>
 </table>
 
 
@@ -331,12 +339,15 @@ The following table describes the fields of data for the account-level files.  F
 The following table describes the fields of data for the account-level files.  For data files in spreadsheet format, the fields are separate spreadsheet columns.  For files in file import format, the fields are separated by commas, as described above.
 
 <table>
-  <tr>
-    <td>Field number</td>
-    <td>Field name</td>
-    <td>Description</td>
-    <td>Valid values</td>
-  </tr>
+  <thead>
+	<tr>
+	  <th>Field number</th>
+	  <th>Field name</th>
+	  <th>Description</th>
+	  <th>Valid values</th>
+	</tr>
+  </thead>
+  <tbody>
   <tr>
     <td>1</td>
     <td>Source category code</td>
@@ -439,6 +450,7 @@ The following table describes the fields of data for the account-level files.  F
     <td>Estimated amounts, in thousands of dollars, for FY 2015 through FY 2020</td>
     <td>(same as above)</td>
   </tr>
+  </tbody>
 </table>
 
 
@@ -447,17 +459,15 @@ The following table describes the fields of data for the account-level files.  F
 The following tables present: (a) agency and bureau codes and titles used in the data files; (b) function and subfunction codes and titles; and (c) receipt source category and subcategory titles.
 
 <table>
-  <tr>
-    <td>Table 1.  Listing of Agency and Bureau Codes
-Used in the Public Budget Database</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Agency</td>
-    <td>Bureau</td>
-    <td>Title</td>
-  </tr>
+  <caption>Table 1.  Listing of Agency and Bureau Codes Used in the Public Budget Database</caption>
+  <thead>
+	<tr>
+	  <th>Agency</th>
+	  <th>Bureau</th>
+	  <th>Title</th>
+	</tr>
+  </thead>
+  <tbody>
   <tr>
     <td>001</td>
     <td></td>
@@ -3219,18 +3229,19 @@ Used in the Public Budget Database</td>
     <td>00</td>
     <td>Miscellaneous Receipts Below the Reporting Threshold</td>
   </tr>
+  </tbody>
 </table>
 
 
 <table>
-  <tr>
-    <td>Table 2.  Listing of Functions and Subfunctions</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Function and Subfunction Code</td>
-    <td>Function and Subfunction Title</td>
-  </tr>
+  <caption>Table 2.  Listing of Functions and Subfunctions</caption>
+  <thead>
+	<tr>
+	  <th>Function and Subfunction Code</th>
+	  <th>Function and Subfunction Title</th>
+	</tr>
+  </thead>
+  <tbody>
   <tr>
     <td>050</td>
     <td>National Defense</td>
@@ -3719,21 +3730,20 @@ Used in the Public Budget Database</td>
     <td>959</td>
     <td>Other undistributed offsetting receipts</td>
   </tr>
+  </tbody>
 </table>
 
 
 <table>
-  <tr>
-    <td>Table 3.  Source Categories for Receipts</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Source Category Code</td>
-    <td>Source Subcategory Code</td>
-    <td>
-Category and Subcategory Title</td>
-  </tr>
+  <caption>Table 3.  Source Categories for Receipts</caption>
+  <thead>
+	<tr>
+	  <td>Source Category Code</td>
+	  <td>Source Subcategory Code</td>
+	  <td>Category and Subcategory Title</td>
+	</tr>
+  </thead>
+  <tbody>
   <tr>
     <td>931</td>
     <td></td>
@@ -3874,4 +3884,5 @@ Category and Subcategory Title</td>
     <td>00</td>
     <td>Legislative Proposals</td>
   </tr>
+  </tbody>
 </table>
