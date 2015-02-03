@@ -7,7 +7,7 @@ You can see the [full Budget on Medium](http://go.wh.gov/2016budget).
 
 This repository includes [three data files](data) that contain an extract of the Office of Management and Budget (OMB) budget database.  These files can be used to reproduce many of the totals published in the Budget and examine unpublished details below the levels of aggregation published in the Budget.
 
-The [user guide](USER_GUIDE.md) file contains detailed information about this data, its format, and its limitations.
+The [user guide](USER_GUIDE.md) file contains detailed information about this data, its format, and its limitations. In addition, OMB provides [additional data tables, explanations and other supporting documents](http://www.whitehouse.gov/omb/budget/Supplemental) in XLS format on its website.
 
 ## Feedback and Issues
 Please submit any feedback or comments on this data, or the Budget process [here](http://wh.gov/feedback/budget-data).
