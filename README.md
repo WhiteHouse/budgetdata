@@ -5,9 +5,9 @@ You can see the [full Budget on Medium](http://go.wh.gov/2016budget).
 
 ## About this Repository
 
-This repository includes [three data files](https://github.com/WhiteHouse/2016-budget-data/tree/master/data) that contain an extract of the Office of Management and Budget (OMB) budget database.  These files can be used to reproduce many of the totals published in the Budget and examine unpublished details below the levels of aggregation published in the Budget.
+This repository includes [three data files](data) that contain an extract of the Office of Management and Budget (OMB) budget database.  These files can be used to reproduce many of the totals published in the Budget and examine unpublished details below the levels of aggregation published in the Budget.
 
-The `USER_GUIDE.md` file contains detailed information about this data, its format, and its limitations.
+The [user guide](USER_GUIDE.md) file contains detailed information about this data, its format, and its limitations.
 
 ## Feedback and Issues
 Please submit any feedback or comments on this data, or the Budget process [here](http://wh.gov/feedback/budget-data).
