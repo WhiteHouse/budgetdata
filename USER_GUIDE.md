@@ -100,7 +100,7 @@ Receipt account data are categorized as follows:
 
 **Source category:** These are major categories of governmental receipts, such as individual income tax receipts or corporation income tax receipts.  (See Table 3.)
 
-**Source subcategory:** These present further detail within source categories.See Table 3.)
+**Source subcategory:** These present further detail within source categories. (See Table 3.)
 
 **Account:** These are assigned by the Treasury Department and are used for budget presentation as well as financial management.  In some instances, groups of small accounts (usually miscellaneous receipt accounts) have been consolidated into single accounts.
 
