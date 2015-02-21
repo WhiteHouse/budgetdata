@@ -98,9 +98,9 @@ Readers wanting more information on this topic may refer to several chapters in 
 
 Receipt account data are categorized as follows:
 
-**Source category:** These are major categories of governmental receipts, such as individual income tax receipts or corporation income tax receipts.  (See Table 3.)
+**Source category:** These are major categories of governmental receipts, such as individual income tax receipts or corporation income tax receipts.  (<a href = "#7--reference-tables">See Table 3</a>.)
 
-**Source subcategory:** These present further detail within source categories. (See Table 3.)
+**Source subcategory:** These present further detail within source categories. (<a href = "#7--reference-tables">See Table 3</a>.)
 
 **Account:** These are assigned by the Treasury Department and are used for budget presentation as well as financial management.  In some instances, groups of small accounts (usually miscellaneous receipt accounts) have been consolidated into single accounts.
 
@@ -124,25 +124,25 @@ The following table describes the fields of data for the account-level files.  F
     <td>1</td>
     <td>Agency code</td>
     <td>3-digit numerical code for Cabinet department or independent agency</td>
-    <td>See Table 1 (below) "Listing of Agency and Bureau Codes"</td>
+    <td><a href = "#7--reference-tables">See Table 1</a> "Listing of Agency and Bureau Codes"</td>
   </tr>
   <tr>
     <td>2</td>
     <td>Agency name</td>
     <td>Agency name from Table 1 (maximum: 89 characters)</td>
-    <td>See Table 1</td>
+    <td><a href = "#7--reference-tables">See Table 1</a></td>
   </tr>
   <tr>
     <td>3</td>
     <td>Bureau code</td>
     <td>2-digit numerical code for the bureau within the Cabinet department or independent agency</td>
-    <td>See Table 1</td>
+    <td><a href = "#7--reference-tables">See Table 1</a></td>
   </tr>
   <tr>
     <td>4</td>
     <td>Bureau name</td>
     <td>Bureau name from Table 1 (maximum: 89 characters)</td>
-    <td>See Table 1</td>
+    <td><a href = "#7--reference-tables">See Table 1</a></td>
   </tr>
   <tr>
     <td>5</td>
@@ -166,13 +166,13 @@ The following table describes the fields of data for the account-level files.  F
     <td>8</td>
     <td>Subfunction code</td>
     <td>3-digit numerical code for the subfunction</td>
-    <td>See Table 2, “Listing of Functions and Subfunctions”</td>
+    <td><a href = "#7--reference-tables">See Table 2</a>, “Listing of Functions and Subfunctions”</td>
   </tr>
   <tr>
     <td>9</td>
     <td>Subfunction title</td>
     <td>Subfunction title (maximum: 72 characters)</td>
-    <td>See Table 2</td>
+    <td><a href = "#7--reference-tables">See Table 2</a></td>
   </tr>
   <tr>
     <td>10</td>
@@ -244,25 +244,25 @@ The following table describes the fields of data for the account-level files.  F
     <td>1</td>
     <td>Agency code</td>
     <td>3-digit numerical code for Cabinet department or independent agency</td>
-    <td>See Table 1 (below) "Listing of Agency and Bureau Codes" </td>
+    <td><a href = "#7--reference-tables">See Table 1</a> "Listing of Agency and Bureau Codes" </td>
   </tr>
   <tr>
     <td>2</td>
     <td>Agency name</td>
     <td>Agency name from Table 1 (maximum: 89 characters)</td>
-    <td>See Table 1</td>
+    <td><a href = "#7--reference-tables">See Table 1</a></td>
   </tr>
   <tr>
     <td>3</td>
     <td>Bureau code</td>
     <td>2-digit numerical code for the bureau within the Cabinet department or independent agency</td>
-    <td>See Table 1</td>
+    <td><a href = "#7--reference-tables">See Table 1</a></td>
   </tr>
   <tr>
     <td>4</td>
     <td>Bureau name</td>
     <td>Bureau name from Table 1 (maximum: 89 characters)</td>
-    <td>See Table 1</td>
+    <td><a href = "#7--reference-tables">See Table 1</a></td>
   </tr>
   <tr>
     <td>5</td>
@@ -286,13 +286,13 @@ The following table describes the fields of data for the account-level files.  F
     <td>8</td>
     <td>Subfunction code</td>
     <td>3-digit numerical code for the subfunction</td>
-    <td>See Table 2, “Listing of Functions and Subfunctions”</td>
+    <td><a href = "#7--reference-tables">See Table 2</a>, “Listing of Functions and Subfunctions”</td>
   </tr>
   <tr>
     <td>9</td>
     <td>Subfunction title</td>
     <td>Subfunction title (maximum: 72 characters)</td>
-    <td>See Table 2</td>
+    <td><a href = "#7--reference-tables">See Table 1</a></td>
   </tr>
   <tr>
     <td>10</td>
@@ -352,49 +352,49 @@ The following table describes the fields of data for the account-level files.  F
     <td>1</td>
     <td>Source category code</td>
     <td>3-digit numerical code for source category</td>
-    <td>See Table 3 (below) "Source Categories for Receipts"</td>
+    <td><a href = "#7--reference-tables">See Table 3</a> "Source Categories for Receipts"</td>
   </tr>
   <tr>
     <td>2</td>
     <td>Source category name</td>
     <td>Title for receipts category (maximum: 41 characters)</td>
-    <td>See Table 3</td>
+    <td><a href = "#7--reference-tables">See Table 3</a></td>
   </tr>
   <tr>
     <td>3</td>
     <td>Source subcategory</td>
     <td>2-digit numerical code for the source subcategory</td>
-    <td>See Table 3</td>
+    <td><a href = "#7--reference-tables">See Table 3</a></td>
   </tr>
   <tr>
     <td>4</td>
     <td>Source subcategory name</td>
     <td>Title for receipts subcategory (maximum: 35 characters)</td>
-    <td>See Table 3</td>
+    <td><a href = "#7--reference-tables">See Table 3</a></td>
   </tr>
   <tr>
     <td>5</td>
     <td>Agency code</td>
     <td>3-digit numerical code for Cabinet department or independent agency</td>
-    <td>See Table 1 (below) “Listing of Agency and Bureau Codes”</td>
+    <td><a href = "#7--reference-tables">See Table 1</a> “Listing of Agency and Bureau Codes”</td>
   </tr>
   <tr>
     <td>6</td>
     <td>Agency name</td>
     <td>Agency name from Table 1 (maximum: 89 characters)</td>
-    <td>See Table 1</td>
+    <td><a href = "#7--reference-tables">See Table 1</a></td>
   </tr>
   <tr>
     <td>7</td>
     <td>Bureau code</td>
     <td>2-digit numerical code for the bureau within the Cabinet department or independent agency</td>
-    <td>See Table 1</td>
+    <td><a href = "#7--reference-tables">See Table 1</a></td>
   </tr>
   <tr>
     <td>8</td>
     <td>Bureau name</td>
     <td>Bureau name from Table 1 (maximum: 89 characters)</td>
-    <td>See Table 1</td>
+    <td><a href = "#7--reference-tables">See Table 1</a></td>
   </tr>
   <tr>
     <td>9</td>
