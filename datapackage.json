@@ -1,0 +1,841 @@
+{
+    "title": "President's Fiscal Year 2016 Budget",
+    "name": "presidents-fiscal-year-2016-budget",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+    "resources": [
+        {
+            "name": "budauth.csv",
+            "path": "data/budauth.csv",
+            "mediatype": "text/csv",
+            "bytes": 1698892,
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Agency Code",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Agency Name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Bureau Code",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Bureau Name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Account Code",
+                        "type": "number"
+                    },
+                    {
+                        "name": "Account Name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Treasury Agency Code",
+                        "type": "number"
+                    },
+                    {
+                        "name": "Subfunction Code",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Subfunction Title",
+                        "type": "string"
+                    },
+                    {
+                        "name": "BEA Category",
+                        "type": "string"
+                    },
+                    {
+                        "name": "On- or Off- Budget",
+                        "type": "string"
+                    },
+                    {
+                        "name": "1976",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "TQ",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1977",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1978",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1979",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1980",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1981",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1982",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1983",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1984",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1985",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1986",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1987",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1988",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1989",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1990",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1991",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1992",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1993",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1994",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1995",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1996",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1997",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1998",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1999",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2000",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2001",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2002",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2003",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2004",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2005",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2006",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2007",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2008",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2009",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2010",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2011",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2012",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2013",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2014",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2015",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2016",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2017",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2018",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2019",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2020",
+                        "type": "boolean"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "outlays.csv",
+            "path": "data/outlays.csv",
+            "mediatype": "text/csv",
+            "bytes": 2162686,
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Agency Code",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Agency Name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Bureau Code",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Bureau Name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Account Code",
+                        "type": "number"
+                    },
+                    {
+                        "name": "Account Name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Treasury Agency Code",
+                        "type": "number"
+                    },
+                    {
+                        "name": "Subfunction Code",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Subfunction Title",
+                        "type": "string"
+                    },
+                    {
+                        "name": "BEA Category",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Grant/non-grant split",
+                        "type": "string"
+                    },
+                    {
+                        "name": "On- or Off- Budget",
+                        "type": "string"
+                    },
+                    {
+                        "name": "1962",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1963",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1964",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1965",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1966",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1967",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1968",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1969",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1970",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1971",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1972",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1973",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1974",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1975",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1976",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "TQ",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1977",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1978",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1979",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1980",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1981",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1982",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1983",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1984",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1985",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1986",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1987",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1988",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1989",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1990",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1991",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1992",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1993",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1994",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1995",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1996",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1997",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1998",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1999",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2000",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2001",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2002",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2003",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2004",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2005",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2006",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2007",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2008",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2009",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2010",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2011",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2012",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2013",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2014",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2015",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2016",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2017",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2018",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2019",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2020",
+                        "type": "boolean"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "receipts.csv",
+            "path": "data/receipts.csv",
+            "mediatype": "text/csv",
+            "bytes": 115123,
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Source Category Code",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Source category name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Source subcategory",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Source subcategory name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Agency code",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Agency name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Bureau code",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Bureau name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Account code",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Account name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Treasury Agency code",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "On- or off-budget",
+                        "type": "string"
+                    },
+                    {
+                        "name": "1962",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1963",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1964",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1965",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1966",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1967",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1968",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1969",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1970",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1971",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1972",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1973",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1974",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1975",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1976",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "TQ",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1977",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1978",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1979",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1980",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1981",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1982",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1983",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1984",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1985",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1986",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1987",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1988",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1989",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1990",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1991",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1992",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1993",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1994",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "1995",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1996",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1997",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1998",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "1999",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2000",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2001",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2002",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2003",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2004",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2005",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2006",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2007",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2008",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2009",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2010",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "2011",
+                        "type": "string"
+                    },
+                    {
+                        "name": "2012",
+                        "type": "string"
+                    },
+                    {
+                        "name": "2013",
+                        "type": "string"
+                    },
+                    {
+                        "name": "2014",
+                        "type": "string"
+                    },
+                    {
+                        "name": "2015",
+                        "type": "string"
+                    },
+                    {
+                        "name": "2016",
+                        "type": "string"
+                    },
+                    {
+                        "name": "2017",
+                        "type": "string"
+                    },
+                    {
+                        "name": "2018",
+                        "type": "string"
+                    },
+                    {
+                        "name": "2019",
+                        "type": "string"
+                    },
+                    {
+                        "name": "2020",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ]
+}
