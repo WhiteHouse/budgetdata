@@ -1,9 +1,9 @@
 ##	Public Budget Database User's Guide
-### Budget of the United States Government, Fiscal Year 2016
+### Budget of the United States Government, Fiscal Year 2017
 
 ### Prepared by: Budget Analysis Branch, Office of Management and Budget February 2015
  
-This document describes three data files that contain an extract of the Office of Management and Budget (OMB) budget database.  These files can be used to reproduce many of the totals published in the Budget and examine unpublished details below the levels of aggregation published in the Budget.  These data, however, have some limitations to their scope and usefulness.
+This document describes six data files that contain an extract of the Office of Management and Budget (OMB) budget database.  These files can be used to reproduce many of the totals published in the Budget and examine unpublished details below the levels of aggregation published in the Budget.  These data, however, have some limitation to their scope and usefulness.
 
 The following sections describe the sources and limitations of the data, as well as the content, format, and coding of the data files.
 
@@ -15,13 +15,13 @@ Historical data for completed fiscal years are summarized from the financial rec
   
 In addition, these historical records are adjusted each year to conform to the agency and account structure of the current budget.  For example, data originally reported in the 1966 Budget by the Department of Health, Education, and Welfare, now appear under the Department of Health and Human Services, the Department of Education, or the Social Security Administration, as appropriate.  Lastly, the historical database has been updated for changes in the functional classification of accounts and in the Budget Enforcement Act (BEA) categorization.
 
-Budget estimates for the current fiscal year (2015) and the budget year (2016) are prepared by agencies, based on the definitions and guidance contained in OMB Circular A-11, "Preparation, Submission, and Execution of the Budget."  Budget totals for these years reflect the President’s fiscal policy and economic assumptions, which are extensively described in the Budget documents.
+Budget estimates for the current fiscal year (2016) and the budget year (2017) are prepared by agencies, based on the definitions and guidance contained in OMB Circular A-11, "Preparation, Submission, and Execution of the Budget."  Budget totals for these years reflect the President’s fiscal policy and economic assumptions, which are extensively described in the Budget documents.
 
-The data files provide sufficient detail to produce: (a) outlay totals by agency, subfunction, and Budget Enforcement Act category that are consistent with the totals presented in the 2016 Budget; (b) receipt totals by source, as shown in various published tables in the Budget; and (c) the deficit (on-budget, off-budget, and unified budget basis).  In addition, outlays can be further disaggregated by grants to State and local governments and non-grants.
+The data files provide sufficient detail to produce: (a) outlay totals by agency, subfunction, and Budget Enforcement Act category that are consistent with the totals presented in the 2017 Budget; (b) receipt totals by source, as shown in various published tables in the Budget; and (c) the deficit (on-budget, off-budget, and unified budget basis).  In addition, outlays can be further disaggregated by grants to State and local governments and non-grants.
 
 ### b.  Fiscal years
 
-The data in these files are for fiscal years.  Prior to 1977, the fiscal year began on July 1 and ended on June 30.  For example, fiscal year 1965 began on July 1, 1964, and ended on June 30, 1965.  Beginning with fiscal year 1977, the fiscal year begins on October 1 and ends on September 30.  For example, fiscal year 2013 began on October 1, 2012, and ended on September 30, 2013.  Fiscal year 1976 ended on June 30, 1976, and fiscal year 1977 began on October 1, 1976.  The period July 1, 1976, to September 30, 1976, is called the "transition quarter" or TQ.
+The data in these files are for fiscal years.  Prior to 1977, the fiscal year began on July 1 and ended on June 30.  For example, fiscal year 1965 began on July 1, 1964, and ended on June 30, 1965.  Beginning with fiscal year 1977, the fiscal year begins on October 1 and ends on September 30.  For example, fiscal year 2015 began on October 1, 2014, and ended on September 30, 2015.  Fiscal year 1976 ended on June 30, 1976, and fiscal year 1977 began on October 1, 1976.  The period July 1, 1976, to September 30, 1976, is called the "transition quarter" or TQ.
 
 ### c.  Units of measure
 
@@ -39,7 +39,7 @@ Users of these data files should be careful to review and understand the effects
 
 Readers who are not already familiar with the Federal Budget should gain a familiarity with the concepts and organization of the budget before proceeding.  The following documents may be helpful: 
 
-**Analytical Perspectives, Budget of the United States Government, Fiscal Year 2016**. This document contains analyses that are designed to highlight specified program areas or provide other significant presentations of Budget data that place the Budget in perspective.  It includes a discussion of the concepts underlying the organization of the Budget and the presentation of Budget data, economic assumptions underlying the Budget estimates, Federal receipts and collections, including user fees and tax expenditures, Federal spending, the Budget Enforcement Act, and other topics.  A particularly useful chapter is "Budget Concepts," which contains a discussion of budget concepts.  Also of particular use is a report entitled, “Table 29-1. Federal Budget By Agency and Account,” which contains a listing of all appropriation and fund accounts in the Budget.  (This report is available online in the Supplemental Materials section at:  http://www.whitehouse.gov/omb/budget/Analytical_Perspectives/.)
+**Analytical Perspectives, Budget of the United States Government, Fiscal Year 2017**. This document contains analyses that are designed to highlight specified program areas or provide other significant presentations of Budget data that place the Budget in perspective.  It includes a discussion of the concepts underlying the organization of the Budget and the presentation of Budget data, economic assumptions underlying the Budget estimates, Federal receipts and collections, including user fees and tax expenditures, Federal spending, the Budget Enforcement Act, and other topics.  A particularly useful chapter is "Budget Concepts," which contains a discussion of budget concepts.  Also of particular use is a report entitled, “Table 29-1. Federal Budget By Agency and Account,” which contains a listing of all appropriation and fund accounts in the Budget.  (This report is available online in the Analytical Perspectives Supplemental Materials section at:  http://www.whitehouse.gov/omb/budget/Analytical_Perspectives/.)
 
 **OMB Circular A-11** provides instructions to agencies in preparing Budget submissions, including details for entry into the Budget database.
 
@@ -58,9 +58,9 @@ Files are provided in “CSV” format.  Virtually any spreadsheet program can r
 In all files, the records are sequenced by agency code, bureau code, account code, subfunction code, BEA category, grant/non-grant, and on-/off-budget field.
 
 The files with the account-level data are:
-  - `outlays.csv`	— Outlays and offsetting receipts, 1962-2020, in csv format.
-  - `receipts.csv` — Governmental receipts, 1962-2020, in file csv format.
-  - `budauth.csv`	— Budget authority and offsetting receipts, 1976-2020, in csv format.
+  - `outlays.csv`	— Outlays and offsetting receipts, 1962-2021, in csv format.
+  - `receipts.csv` — Governmental receipts, 1962-2021, in file csv format.
+  - `budauth.csv`	— Budget authority and offsetting receipts, 1976-2021, in csv format.
 
 Offsetting receipts are in the budget authority files as well as the outlay files.  These amounts are needed to calculate net budget authority and net outlays.
 
