@@ -685,11 +685,6 @@ The following tables present: (a) agency and bureau codes and titles used in the
   </tr>
   <tr>
     <td>005</td>
-    <td></td>
-    <td>Department of Agriculture – continued</td>
-  </tr>
-  <tr>
-    <td>005</td>
     <td>16</td>
     <td>Hazardous Materials Management</td>
   </tr>
@@ -902,11 +897,6 @@ The following tables present: (a) agency and bureau codes and titles used in the
     <td>007</td>
     <td>25</td>
     <td>Military Construction</td>
-  </tr>
-  <tr>
-    <td>007</td>
-    <td></td>
-    <td>Department of Defense—Military Programs – continued</td>
   </tr>
   <tr>
     <td>007</td>
@@ -1355,11 +1345,6 @@ The following tables present: (a) agency and bureau codes and titles used in the
   </tr>
   <tr>
     <td>015</td>
-    <td></td>
-    <td>Department of the Treasury – continued</td>
-  </tr>
-  <tr>
-    <td>015</td>
     <td>45</td>
     <td>Internal Revenue Service</td>
   </tr>
@@ -1577,11 +1562,6 @@ The following tables present: (a) agency and bureau codes and titles used in the
     <td>021</td>
     <td>65</td>
     <td>Bureau of Transportation Statistics</td>
-  </tr>
-  <tr>
-    <td>021</td>
-    <td></td>
-    <td>Department of Transportation – continued</td>
   </tr>
   <tr>
     <td>021</td>
@@ -2012,11 +1992,6 @@ The following tables present: (a) agency and bureau codes and titles used in the
     <td>184</td>
     <td>70</td>
     <td>Military Sales Program</td>
-  </tr>
-  <tr>
-    <td>184</td>
-    <td></td>
-    <td>International Assistance Programs – continued</td>
   </tr>
   <tr>
     <td>184</td>
@@ -3415,10 +3390,6 @@ The following tables present: (a) agency and bureau codes and titles used in the
     <td>Water transportation</td>
   </tr>
   <tr>
-    <td>400</td>
-    <td>Transportation – continued</td>
-  </tr>
-  <tr>
     <td>407</td>
     <td>Other transportation</td>
   </tr>
@@ -3589,10 +3560,6 @@ The following tables present: (a) agency and bureau codes and titles used in the
   <tr>
     <td>751</td>
     <td>Federal law enforcement activities</td>
-  </tr>
-  <tr>
-    <td>750</td>
-    <td>Administration of Justice – continued</td>
   </tr>
   <tr>
     <td>752</td>
