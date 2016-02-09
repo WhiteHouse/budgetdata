@@ -1,9 +1,9 @@
 ##	Public Budget Database User's Guide
 ### Budget of the United States Government, Fiscal Year 2017
 
-### Prepared by: Budget Analysis Branch, Office of Management and Budget February 2015
+### Prepared by: Budget Analysis Branch, Office of Management and Budget February 2016
  
-This document describes six data files that contain an extract of the Office of Management and Budget (OMB) budget database.  These files can be used to reproduce many of the totals published in the Budget and examine unpublished details below the levels of aggregation published in the Budget.  These data, however, have some limitation to their scope and usefulness.
+This document describes three data files that contain an extract of the Office of Management and Budget (OMB) budget database.  These files can be used to reproduce many of the totals published in the Budget and examine unpublished details below the levels of aggregation published in the Budget.  These data, however, have some limitation to their scope and usefulness.
 
 The following sections describe the sources and limitations of the data, as well as the content, format, and coding of the data files.
 
